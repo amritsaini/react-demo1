@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
   const [user, setUser] = useState([]);
-  //call api
+  //call apis//
   const fetchData = () => {
     return fetch("https://jsonplaceholder.typicode.com/users")
           .then((response) => response.json())
